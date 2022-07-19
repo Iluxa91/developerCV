@@ -1,0 +1,36 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .titleContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 150px;
+      span {
+        margin: 0 20px 20px 0;
+      }
+      button {
+        height: 30px;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+    }
+    .testContainer {
+      display: flex;
+      flex-direction: column;
+      width: 430px;
+      margin-left: 20px;
+
+      span {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+
+
+}

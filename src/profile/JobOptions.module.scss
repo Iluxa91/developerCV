@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  margin: 10px;
+
+  div {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  span {
+    margin-left: 10px;
+
+  }
+}

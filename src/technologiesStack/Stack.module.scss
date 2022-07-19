@@ -1,0 +1,29 @@
+.stackBlock {
+  border: 1px solid;
+  display: flex;
+  margin-top: 20px;
+
+  .stackContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    padding: 0 10px 0px 20px;
+    width: 100%;
+    h2, h3 {
+      margin: 0;
+    }
+    .langContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .techContainer {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .experContainer span{
+      margin-right: 20px;
+    }
+  }
+}

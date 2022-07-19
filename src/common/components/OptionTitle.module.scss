@@ -1,0 +1,17 @@
+.titleContainer {
+  border: 1px solid;
+  width: 350px;
+  display: flex;
+  align-items: flex-start;
+
+  div {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+  }
+  h2 {
+    margin: 0 5px;
+  }
+}

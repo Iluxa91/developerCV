@@ -1,0 +1,10 @@
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  .stars {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
