@@ -1,12 +1,12 @@
 import React from 'react';
-import s from './DevLang.module.scss'
+import s from './DeveloperStack.module.scss'
 
-type DevLangType = {
+type PropsType = {
     title: string
     style: {backgroundImage:string}
 }
 
-export const DevLang = (props:DevLangType) => {
+export const DeveloperStack = (props:PropsType) => {
     return (
         <div className={s.container}>
             <div style={props.style}></div>

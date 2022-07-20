@@ -1,0 +1,19 @@
+.container {
+  border-left: 1px solid #EBEBEB;
+  margin: 0 0 20px 20px;
+  padding-left: 20px;
+
+
+  .description {
+    display: flex;
+    flex-direction: column;
+
+    .languageContainer {
+      display: flex;
+    }
+    .skillsTitle {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  }
+}

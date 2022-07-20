@@ -1,8 +1,6 @@
 .stackBlock {
-  border: 1px solid;
   display: flex;
-  margin-top: 20px;
-
+  margin-top: 40px;
   .stackContainer {
     display: flex;
     flex-direction: column;
@@ -15,7 +13,7 @@
     }
     .langContainer {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       flex-wrap: wrap;
     }
     .techContainer {

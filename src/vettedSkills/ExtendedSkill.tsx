@@ -7,7 +7,7 @@ export const ExtendedSkill = () => {
         <div className={s.block}>
             <div className={s.container}>
                 <div className={s.titleContainer}>
-                    <span>Quiz</span>
+                    <h3>Quiz</h3>
                     <button>See Quiz results</button>
                 </div>
                 <div className={s.testContainer}>
@@ -21,7 +21,7 @@ export const ExtendedSkill = () => {
             </div>
             <div className={s.container}>
                 <div className={s.titleContainer}>
-                    <span>Coding Challenge</span>
+                    <h3>Coding Challenge</h3>
                     <button>See Code</button>
                 </div>
                 <div className={s.testContainer} >
