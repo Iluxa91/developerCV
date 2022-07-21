@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 10px;
     .titleContainer {
       display: flex;
       flex-direction: column;
@@ -14,9 +15,9 @@
         margin: 0 20px 20px 0;
       }
       button {
-        height: 30px;
-        border: 1px solid;
-        border-radius: 5px;
+        border-radius: 10px;
+        text-transform: capitalize;
+        //white-space: nowrap;
       }
     }
     .testContainer {
@@ -24,9 +25,9 @@
       flex-direction: column;
       width: 430px;
       margin-left: 20px;
-
-      span {
+      .text {
         margin-bottom: 10px;
+        color: gray;
       }
     }
   }

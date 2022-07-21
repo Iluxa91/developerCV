@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import {ExtendedSkill} from "./ExtendedSkill";
+import {ExtendedSkill} from "./extendedSkill/ExtendedSkill";
 import s from './VattedSkill.module.scss'
-import {Skill} from "./Skill";
+import {Skill} from "./skill/Skill";
 
 type PropsType = {
     title: string

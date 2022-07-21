@@ -1,6 +1,8 @@
 import React from 'react';
-import {VattedTopic} from "./VattedTopic";
+import {VattedTopic} from "./vattedTopic/VattedTopic";
 import s from './ExtendedSkill.module.scss'
+import {Button} from "@mui/material";
+
 
 export const ExtendedSkill = () => {
     return (
@@ -8,10 +10,10 @@ export const ExtendedSkill = () => {
             <div className={s.container}>
                 <div className={s.titleContainer}>
                     <h3>Quiz</h3>
-                    <button>See Quiz results</button>
+                    <Button variant="outlined">See Quiz results</Button>
                 </div>
                 <div className={s.testContainer}>
-                    <span>Includes 15 questions on the following topics</span>
+                    <span className={s.text}>Includes 15 questions on the following topics</span>
                     <VattedTopic title={'DOM'} stars={4.5}/>
                     <VattedTopic title={'HTML'} stars={4.2}/>
                     <VattedTopic title={'CSS'} stars={4}/>
@@ -22,16 +24,17 @@ export const ExtendedSkill = () => {
             <div className={s.container}>
                 <div className={s.titleContainer}>
                     <h3>Coding Challenge</h3>
-                    <button>See Code</button>
+                    {/*<button>See Code</button>*/}
+                    <Button variant="outlined">See Code</Button>
                 </div>
                 <div className={s.testContainer} >
-                    <span>Includes 3 tasks on coding skills</span>
+                    <span className={s.text}>Includes 3 tasks on coding skills</span>
                     <VattedTopic title={'Sorting algorithm'} stars={4.5}/>
                     <VattedTopic title={'Strings and arrays'} stars={4.2}/>
                     <VattedTopic title={'Complexity'} stars={4}/>
                 </div>
-            </div>
 
+            </div>
         </div>
     );
 };

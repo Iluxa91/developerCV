@@ -5,8 +5,7 @@ import jsIMG from '../assets/images/JS.png'
 import stckIMG from '../assets/images/logo_5.jpg'
 import reactIMG from '../assets/images/reactImg.png'
 import {OptionTitle} from "../common/components/OptionTitle";
-
-
+import BuildIcon from '@mui/icons-material/Build';
 
 export const Stacks = () => {
     const jsImg = {

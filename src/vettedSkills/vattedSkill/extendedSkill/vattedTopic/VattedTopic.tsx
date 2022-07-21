@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './VattedTopic.module.scss'
+import {Rating} from "@mui/material";
 
 type PropsType = {
     title: string
@@ -10,9 +11,10 @@ export const VattedTopic = (props:PropsType) => {
     return (
         <div className={s.block}>
             <span>{props.title}</span>
-            <div>
+            <div className={s.starsContainer}>
                 <span>{props.stars}</span>
-                <span className={s.stars}>starstarstarstarstar</span>
+                <Rating name={'half-rating'} defaultValue={props.stars} precision={0.1} readOnly/>
+                {/*<span className={s.stars}>starstarstarstarstar</span>*/}
             </div>
 
         </div>

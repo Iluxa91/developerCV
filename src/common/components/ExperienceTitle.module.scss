@@ -5,10 +5,10 @@
   .circle {
     background-color: blue;
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     position: absolute;
-    left: -30px;
+    left: -28px;
     right: 0;
     content: "";
 
@@ -17,17 +17,23 @@
     margin: 0;
   }
 }
+.subTitle {
+  color: gray;
+}
 .clockContainer {
   margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  div {
-    width: 20px;
-    height: 20px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-right: 10px;
+  //div {
+  //  width: 20px;
+  //  height: 20px;
+  //  background-size: cover;
+  //  background-position: center;
+  //  background-repeat: no-repeat;
+  //  margin-right: 10px;
+  //}
+  span {
+    margin-left: 10px;
   }
 }

@@ -1,6 +1,8 @@
 .profileBlock {
   display: flex;
   margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #EBEBEB;
   .imageContainer {
 
     width: 350px;
@@ -12,9 +14,10 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 0 10px 20px;
     .text {
       text-align: left;
+      margin-top: 20px;
     }
     .nameContainer {
       display: flex;
@@ -28,10 +31,11 @@
       .buttons {
         button {
           margin: 10px;
+          border-radius: 10px;
+          text-transform: none;
+          padding: 8px 25px 8px 25px;
         }
       }
-
-
     }
   }
 }

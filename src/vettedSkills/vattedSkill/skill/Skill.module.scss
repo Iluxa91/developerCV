@@ -1,7 +1,6 @@
 .introduction {
   display: flex;
   position: relative;
-
   div {
     height: 30px;
     width: 120px;
@@ -15,34 +14,30 @@
     bottom: -15px;
   }
 }
-
 .container {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   .skill {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-
     div {
       background-size: cover;
       background-position: right;
       height: 25px;
       width: 25px;
     }
-
     h3 {
       margin: 0 5px;
     }
   }
-
   .grade {
-    span {
+    display: flex;
+    justify-content: center;
+    .numberRating {
       margin-right: 10px;
-      cursor: pointer;
     }
   }
 }
