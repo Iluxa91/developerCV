@@ -1,6 +1,6 @@
 import React from 'react';
-import {OptionTitle} from "../common/components/OptionTitle";
-import educImg from "../assets/images/education.jpg"
+import {OptionTitle} from "../../../common/components/OptionTitle";
+import educImg from "../../../assets/images/education.jpg"
 import {EducationUnit} from "./EducationUnit";
 import s from "./Education.module.scss"
 

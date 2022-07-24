@@ -5,20 +5,24 @@ import {Skill} from "./skill/Skill";
 
 type PropsType = {
     title: string
-    stars: number
+    rating: number
+    id: string
+    icon: { backgroundImage: string }
 }
 
 export const VattedSkill = (props:PropsType) => {
+
     const [collapsed, setIsCollapsed]=useState(false)
     return (
         <div className={s.block} >
             <Skill
+                icon={props.icon}
                 title={props.title}
-                stars={props.stars}
+                stars={props.rating}
                 setIsCollapsed={setIsCollapsed}
                 collapsed={collapsed}
             />
-            {collapsed && <ExtendedSkill />}
+            {collapsed && <ExtendedSkill id={props.id}/>}
 
         </div>
     );

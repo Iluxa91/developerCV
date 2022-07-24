@@ -1,19 +1,19 @@
 import React from 'react';
-import s from './VattedTopic.module.scss'
+import s from './ChallengeResult.module.scss'
 import {Rating} from "@mui/material";
 
 type PropsType = {
     title: string
-    stars: number
+    rating: number
 }
 
-export const VattedTopic = (props:PropsType) => {
+export const ChallengeResult = (props:PropsType) => {
     return (
         <div className={s.block}>
             <span>{props.title}</span>
             <div className={s.starsContainer}>
-                <span>{props.stars}</span>
-                <Rating name={'half-rating'} defaultValue={props.stars} precision={0.1} readOnly/>
+                <span>{props.rating}</span>
+                <Rating name={'half-rating'} defaultValue={props.rating} precision={0.1} readOnly/>
                 {/*<span className={s.stars}>starstarstarstarstar</span>*/}
             </div>
 

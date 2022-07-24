@@ -6,11 +6,10 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 type PropsType = {
     title:string
     institutionTitle: string
+    dates:string
 }
 export const ExperienceTitle = (props:PropsType) => {
-    // const clockImg = {
-    //     backgroundImage:`url(${clcIMG})`
-    // }
+    // const clockImg = {backgroundImage:`url(${clcIMG})`}
     return (
         <div>
             <div className={s.title}>
@@ -21,7 +20,7 @@ export const ExperienceTitle = (props:PropsType) => {
             <div className={s.clockContainer}>
                 <AccessTimeIcon/>
                 {/*<div style={clockImg} ></div>*/}
-                <span> 2 years 2 month | June 2019 - October 2021</span>
+                <span>{props.dates}</span>
             </div>
         </div>
 

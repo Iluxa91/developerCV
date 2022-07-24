@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import {Profile} from "../profile/Profile";
-import {Stacks} from "../technologiesStack/Stacks";
-import {VettedSkills} from "../vettedSkills/VettedSkills";
-import {WorkExperience} from "../workExperience/WorkExperience";
-import {Education} from "../education/Education";
-import {Contact} from "../contact/Contact";
+import {Profile} from "../features/cvPage/profile/Profile";
+import {Stacks} from "../features/cvPage/technologiesStack/Stacks";
+import {VettedSkills} from "../features/cvPage/vettedSkills/VettedSkills";
+import {WorkExperience} from "../features/cvPage/workExperience/WorkExperience";
+import {Education} from "../features/cvPage/education/Education";
+import {Contact} from "../features/cvPage/contact/Contact";
 
 function App() {
     return (
         <div className="App">
-            <Profile name={'Ivan Ivanov'}/>
+            <Profile />
             <Stacks/>
             <VettedSkills/>
             <WorkExperience/>

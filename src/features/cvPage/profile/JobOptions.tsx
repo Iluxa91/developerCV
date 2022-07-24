@@ -1,12 +1,10 @@
 import React from 'react';
 import s from './JobOptions.module.scss'
 
-
-
 type JobOptionsType = {
     title: string
-    style: {backgroundImage: string}
-    icon?: any
+    // style: {backgroundImage: string}
+    icon: any
 }
 
 export const JobOption = (props:JobOptionsType) => {
