@@ -7,7 +7,6 @@
     position: relative;
     flex-direction: column;
   }
-
   .imageContainer {
     min-width: 250px;
     border: 1px solid;
@@ -18,40 +17,32 @@
       height: 80px;
       position: absolute;
       right: 0;
-
-
     }
   }
-
   .descriptionContainer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
     padding: 10px 0 10px 20px;
-
     .text {
       text-align: left;
       margin-top: 20px;
     }
-
     .nameContainer {
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 100%;
-
       div h1, h3 {
         text-align: left;
         margin: 0;
       }
-
       .buttons {
         @media (max-width: 600px) {
           position: absolute;
           bottom: -10px;
         }
-
         button {
           margin: 10px 10px 10px 0;
           border-radius: 10px;

@@ -23,7 +23,6 @@ export const VattedSkill = (props:PropsType) => {
                 collapsed={collapsed}
             />
             {collapsed && <ExtendedSkill id={props.id}/>}
-
         </div>
     );
 };
