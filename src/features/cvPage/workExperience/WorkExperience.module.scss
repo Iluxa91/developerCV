@@ -1,6 +1,9 @@
 .block {
   display: flex;
   margin-top: 40px;
+  @media (max-width: 600px){
+    flex-direction: column;
+  }
   .container {
     display: flex;
     flex-direction: column;

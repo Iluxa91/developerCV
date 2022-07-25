@@ -9,7 +9,6 @@ import {InitialStateType} from "../profile-reducer";
 
 export const Stacks = () => {
     const stckImg = {backgroundImage:`url(${stckIMG})`}
-
     const userCV = useSelector<AppRootStateType,InitialStateType>(state => state.userCV)
 
     return (

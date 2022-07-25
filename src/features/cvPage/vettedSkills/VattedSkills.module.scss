@@ -3,6 +3,9 @@
   width: 100%;
   box-sizing: border-box;
   margin-top: 40px;
+  @media (max-width: 600px){
+    flex-direction: column;
+  }
 
   .skillsContainer {
     display: flex;

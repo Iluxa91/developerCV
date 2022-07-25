@@ -1,16 +1,12 @@
 import React from 'react';
 import s from "./Skill.module.scss";
 import img from "../../../../../assets/images/vettedBG.jpg";
-import reactIMG from "../../../../../assets/images/reactImg.png";
 import {Rating} from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 const vatIMG = {
     backgroundImage:`url(${img})`
-}
-const reactImg = {
-    backgroundImage:`url(${reactIMG})`
 }
 
 type PropsType = {

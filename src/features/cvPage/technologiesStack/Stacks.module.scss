@@ -1,11 +1,13 @@
 .stackBlock {
   display: flex;
   margin-top: 40px;
+  @media (max-width: 600px){
+    flex-direction: column;
+  }
   .stackContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 300px;
     margin-left: 20px;
     width: 100%;
     border-bottom: 1px solid #EBEBEB;

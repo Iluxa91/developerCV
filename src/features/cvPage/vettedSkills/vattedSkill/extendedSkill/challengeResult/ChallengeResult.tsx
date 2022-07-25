@@ -14,7 +14,6 @@ export const ChallengeResult = (props:PropsType) => {
             <div className={s.starsContainer}>
                 <span>{props.rating}</span>
                 <Rating name={'half-rating'} defaultValue={props.rating} precision={0.1} readOnly/>
-                {/*<span className={s.stars}>starstarstarstarstar</span>*/}
             </div>
 
         </div>

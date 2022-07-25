@@ -6,11 +6,16 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 10px;
+    @media (max-width: 600px){
+      flex-direction: column;
+      margin-right: 10px;
+    }
     .titleContainer {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      width: 150px;
+      min-width: 120px;
+      margin-bottom: 10px;
       h3 {
         margin: 0 20px 20px 0;
       }
@@ -23,8 +28,9 @@
     .testContainer {
       display: flex;
       flex-direction: column;
-      width: 430px;
+      width: 100%;
       margin-left: 20px;
+
       .text {
         margin-bottom: 10px;
         color: gray;

@@ -1,0 +1,10 @@
+.App {
+  margin: 30px;
+  box-sizing: border-box;
+  @media (max-width: 450px){
+    font-size: 80%;
+    margin: 10px;
+    padding-right: 20px;
+  }
+}
+
